@@ -55,3 +55,43 @@ header .container {
     font-weight: 600;
     font-size: 1.1rem;
 }
+
+/* Hero section */
+#hero-section {
+    padding: 56px 0;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.hero-section-container {
+    display: flex;
+    gap: 40px;
+}
+
+.hero-section-left, .hero-section-right {
+    flex: 1;
+}
+
+.hero-section-left h2 {
+    font-size: 2.2rem;
+}
+
+.hero-section-left p {
+    font-size: 1.1rem;
+    margin: 16px 0;
+}
+
+.hero-section-left button {
+    border: none;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.hero-section-right img {
+    height: 280px;
+    border-radius: 50%;
+}

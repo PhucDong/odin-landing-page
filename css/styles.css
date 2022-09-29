@@ -57,31 +57,31 @@ header .container {
 }
 
 /* Hero section */
-#hero-section {
-    padding: 56px 0;
+#hero {
+    padding: 80px 0;
     background-color: #1f2937;
     color: #f9faf8;
 }
 
-.hero-section-container {
+.hero-container {
     display: flex;
     gap: 40px;
 }
 
-.hero-section-left, .hero-section-right {
+.hero-left, .hero-right {
     flex: 1;
 }
 
-.hero-section-left h2 {
+.hero-left h2 {
     font-size: 2.2rem;
 }
 
-.hero-section-left p {
+.hero-left p {
     font-size: 1.1rem;
     margin: 16px 0;
 }
 
-.hero-section-left button {
+.hero-left button {
     border: none;
     font-size: 1.3rem;
     border-radius: 8px;
@@ -91,7 +91,44 @@ header .container {
     cursor: pointer;
 }
 
-.hero-section-right img {
+.hero-right img {
     height: 280px;
     border-radius: 50%;
+}
+
+/* Projects section */
+#projects {
+    padding: 80px 0;
+    background-color: #f9faf8;
+}
+
+.projects-container h2 {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #1f2937;
+    margin-bottom: 32px;
+}
+
+.projects-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.projects-list div {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-list div img {
+    width: 100%;
+}
+
+.projects-list div p {
+    text-align: center;
+    color: #1f2937;
+    font-size: 1.1rem;
+    padding: 8px;
 }

@@ -52,8 +52,11 @@ header .container {
 
 .nav-items a {
     color: #f9faf8;
-    font-weight: 600;
     font-size: 1.1rem;
+}
+
+.nav-items a:hover {
+    text-decoration: underline;
 }
 
 /* Hero section */
@@ -92,8 +95,8 @@ header .container {
 }
 
 .hero-right img {
-    height: 280px;
-    border-radius: 50%;
+    width: 530px;
+    height: 350px;
 }
 
 /* Projects Section */
@@ -112,14 +115,15 @@ header .container {
 .projects-list {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 16px;
 }
 
 .projects-list div {
     max-width: 250px;
     display: flex;
+    flex: 1;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .projects-list div img {
@@ -179,7 +183,7 @@ header .container {
     font-size: 1.2rem;
 }
 
-.cta-button {
+.border-btn {
     border: 2px solid #f9faf8;
 }
 

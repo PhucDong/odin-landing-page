@@ -47,16 +47,29 @@ header .container {
 }
 
 .nav-items {
-    gap: 24px;
+    gap: 32px;
 }
 
 .nav-items a {
     color: #f9faf8;
     font-size: 1.1rem;
+    position: relative;
 }
 
-.nav-items a:hover {
-    text-decoration: underline;
+.nav-items a::before {
+    content: '';
+	position: absolute;
+	bottom: -4px;
+	left: 0; 
+    right: 0;
+	height: 2px;
+    background-color: #f9faf8;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-items a:hover::before {
+    opacity: 1;
 }
 
 /* Hero section */
@@ -115,7 +128,7 @@ header .container {
 .projects-list {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .projects-list div {
@@ -124,6 +137,7 @@ header .container {
     flex: 1;
     flex-direction: column;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .projects-list div img {

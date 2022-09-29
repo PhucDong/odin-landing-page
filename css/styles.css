@@ -81,7 +81,7 @@ header .container {
     margin: 16px 0;
 }
 
-.hero-left button {
+.cta-button {
     border: none;
     font-size: 1.3rem;
     border-radius: 8px;
@@ -153,4 +153,32 @@ header .container {
     text-align: right;
     font-size: 1.7rem;
     font-weight: 700;
+}
+
+/* Call-to-action Section */
+#cta-section {
+    padding: 80px 0;
+}
+
+.cta-section-container {
+    padding: 40px 88px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    margin: 0 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-section-left h3 {
+    font-size: 1.6rem;
+}
+
+.cta-section-left p {
+    font-size: 1.2rem;
+}
+
+.cta-button {
+    border: 2px solid #f9faf8;
 }
